@@ -9,7 +9,7 @@ const Chat = ({ onSendMessage }) => {
   }
 
   return (
-    <footer className="fixed bottom-0 w-full shadow-lg p-4">
+    <footer className="bottom-0 w-full shadow-lg p-4 lg:px-[150px]">
       <section className="flex justify-end min-h-[50px] text-black">
         <input
           type="text"
